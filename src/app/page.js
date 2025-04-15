@@ -3,6 +3,7 @@
 import Hero from '../components/Hero';
 import Overview from '../components/Overview';
 import Technology from '../components/Technology';
+import Investment from '../components/Investment';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Overview />
       <Technology />
+      <Investment />
     </main>
   );
 }
