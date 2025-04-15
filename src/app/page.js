@@ -1,5 +1,6 @@
 'use client';
-
+import Team from '../components/Team';
+import Offerings from '../components/Offerings';
 import Hero from '../components/Hero';
 import Overview from '../components/Overview';
 import Technology from '../components/Technology';
@@ -12,6 +13,8 @@ export default function Home() {
       <Overview />
       <Technology />
       <Investment />
+      <Offerings />
+
     </main>
   );
 }
