@@ -10,7 +10,7 @@ export default function Home() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Shaping Denmark's Energy Future
+          <h1>Shaping Denmark&apos;s Energy Future</h1>
         </motion.h1>
         <motion.p
           className="text-lg md:text-xl text-gray-600"
