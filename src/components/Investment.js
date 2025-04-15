@@ -21,4 +21,12 @@ export default function Investment() {
           <div className="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-2">Green Certified</h3>
             <p className="text-gray-600">
+              Eligible for sustainability-linked finance and green bond compliance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
