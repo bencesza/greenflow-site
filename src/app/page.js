@@ -1,9 +1,24 @@
+// src/app/page.js
 'use client';
+
+import Hero from '@/components/Hero';
+import Overview from '@/components/Overview';
+import Technology from '@/components/Technology';
+import Investment from '@/components/Investment';
+import Offerings from '@/components/Offerings';
+import Team from '@/components/Team';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-white text-black">
-      <h1 className="text-4xl font-bold">Welcome to Greenflow 🌱</h1>
+    <main className="bg-white text-gray-900">
+      <Hero />
+      <Overview />
+      <Technology />
+      <Investment />
+      <Offerings />
+      <Team />
+      <ContactForm />
     </main>
   );
 }
