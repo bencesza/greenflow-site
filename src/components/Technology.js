@@ -18,5 +18,12 @@ export default function Technology() {
             <p className="text-gray-600">Allow dynamic energy flow between grid, batteries, and local usage zones.</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-md">
-            <h3 className
+            <h3 className="text-xl font-semibold mb-2">Smart Monitoring & BMS</h3>
+            <p className="text-gray-600">Real-time control, diagnostics, and performance optimization using AI-driven systems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
