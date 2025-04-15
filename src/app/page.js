@@ -10,7 +10,7 @@ import ContactForm from '../components/ContactForm';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <main className="min-h-screen bg-white text-gray-900">
       <Hero />
       <Overview />
       <Technology />
@@ -18,7 +18,6 @@ export default function Home() {
       <Offerings />
       <Team />
       <ContactForm />
-    </div>
+    </main>
   );
 }
-
