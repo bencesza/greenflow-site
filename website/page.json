@@ -1,0 +1,67 @@
+'use client';
+import { motion } from 'framer-motion';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white text-gray-900 p-6">
+      <header className="max-w-5xl mx-auto py-16 text-center">
+        <motion.h1
+          className="text-4xl md:text-6xl font-bold mb-4"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          Shaping Denmark's Energy Future
+        </motion.h1>
+        <motion.p
+          className="text-lg md:text-xl text-gray-600"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          Advanced Battery Energy Storage Systems with sustainable returns.
+        </motion.p>
+      </header>
+
+      <section className="max-w-5xl mx-auto grid gap-12 md:grid-cols-2">
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">Greenflow BESS Project Overview</h2>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>5-10MWh park capacity</li>
+            <li>Supports renewable energy integration</li>
+            <li>Decentralized energy storage</li>
+            <li>Crypto Mining Integration</li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src="https://heyboss.heeyo.ai/1744382638-a75fbe0f-142257164.fs1.hubspotusercontent-eu1.net-hubfs-142257164-BESS-Demand-Response-Whats-the-Connection-1920-1080px.jpg"
+            alt="Greenflow BESS Park"
+            className="rounded-2xl shadow-lg"
+          />
+        </div>
+      </section>
+
+      <section className="max-w-5xl mx-auto mt-16">
+        <h3 className="text-xl font-semibold mb-4">Key Impact Metrics</h3>
+        <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <li>
+            <p className="text-3xl font-bold text-green-600">100 MWh</p>
+            <p className="text-sm text-gray-500">Pipeline Capacity</p>
+          </li>
+          <li>
+            <p className="text-3xl font-bold text-green-600">15%</p>
+            <p className="text-sm text-gray-500">Grid Efficiency Increase</p>
+          </li>
+          <li>
+            <p className="text-3xl font-bold text-green-600">20 Years</p>
+            <p className="text-sm text-gray-500">Operational Lifespan</p>
+          </li>
+          <li>
+            <p className="text-3xl font-bold text-green-600">50,000t</p>
+            <p className="text-sm text-gray-500">CO₂ Saved Annually</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  );
+}
